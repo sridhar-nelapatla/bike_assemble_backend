@@ -1,0 +1,52 @@
+.dashboard-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.welcome-message {
+  margin-bottom: 20px;
+}
+
+.filter-section {
+  margin-bottom: 20px;
+}
+
+.specific-date-section {
+  margin-bottom: 20px;
+}
+
+.date-input {
+  padding: 8px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.filter-button,
+.fetch-button,
+.logout-button {
+  padding: 8px 12px;
+  font-size: 14px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.filter-button:hover,
+.fetch-button:hover,
+.logout-button:hover {
+  background-color: #0056b3;
+}
+
+.chart-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
